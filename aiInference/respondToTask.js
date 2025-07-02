@@ -52,7 +52,7 @@ var accounts_1 = require("viem/accounts");
 var chains_1 = require("viem/chains");
 var openai_1 = require("@langchain/openai");
 require("dotenv/config");
-var OPERATOR_PRIVATE_KEY = '0x1f82863328a3801c9b50ab28746a5c17b0baaa6056287dcb5643fa6848907c3d';
+var OPERATOR_PRIVATE_KEY = '';
 var OPEN_ROUTER_API = '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';
 var abi = (0, viem_1.parseAbi)([
     'function respondToTask((string contents, uint32 taskCreatedBlock) task, uint32 referenceTaskIndex, bool isSafe, bytes memory signature) external',

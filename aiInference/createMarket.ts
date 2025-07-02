@@ -2,7 +2,7 @@ import { createPolymarketServiceManager, MarketType, ResolutionSource } from './
 import 'dotenv/config';
 
 // Configuration
-const PRIVATE_KEY = process.env.PRIVATE_KEY || '0x1f82863328a3801c9b50ab28746a5c17b0baaa6056287dcb5643fa6848907c3d';
+const PRIVATE_KEY = process.env.PRIVATE_KEY || ;
 const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS || '0x0b6D8B9A2b84F3A40282a99674dA8E388B1eEC28';
 const RPC_URL = process.env.RPC_URL || 'https://1rpc.io/holesky';
 

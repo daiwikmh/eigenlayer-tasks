@@ -40,7 +40,7 @@ var viem_1 = require("viem");
 var accounts_1 = require("viem/accounts");
 var chains_1 = require("viem/chains");
 require("dotenv/config");
-var PRIVATE_KEY = '0xa73f439105df962fa7af1a273c400e562f1065977926c423762d1c48c7432aac';
+var PRIVATE_KEY = '';
 // Simplified ABI without complex types
 var abi = [
     {
